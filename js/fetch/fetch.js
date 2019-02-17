@@ -11,6 +11,7 @@ const url = 'https://reqres.in/api/users';
     fetch('https://www.meneame.net/')
         .then(resp =>resp.json())
         .then(html=>{
+            console.log(html)
             document.open();
             document.write(html);
             document.close();
