@@ -14,7 +14,7 @@ const url = 'https://reqres.in/api/users';
         .then(resp =>resp.text())
         .then((h)=>{
             console.log("pasa por aqui" + h)
-            // document.open();
-            // document.write(html);
-            // document.close();
+            document.open();
+            document.write(html);
+            document.close();
         })
