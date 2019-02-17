@@ -8,7 +8,9 @@ const url = 'https://reqres.in/api/users';
 //     })
 
 
-    fetch('https://www.meneame.net/')
+    const url2 = "https://www.wikipedia.org/"
+
+    fetch(url2)
         .then(resp =>resp.json())
         .then(html=>{
             console.log(html)
