@@ -11,9 +11,9 @@ const url = 'https://reqres.in/api/users';
     const url2 = "https://www.wikipedia.org/"
 
     fetch(url2)
-        .then(resp =>resp.json())
-        .then(html=>{
-            console.log(html)
+        .then(resp =>resp.text())
+        .then((h)=>{
+            console.log("pasa por aqui" + h)
             // document.open();
             // document.write(html);
             // document.close();
