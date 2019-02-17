@@ -12,7 +12,7 @@ const url = 'https://reqres.in/api/users';
         .then(resp =>resp.json())
         .then(html=>{
             console.log(html)
-            document.open();
-            document.write(html);
-            document.close();
+            // document.open();
+            // document.write(html);
+            // document.close();
         })
